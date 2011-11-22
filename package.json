@@ -1,0 +1,12 @@
+{
+  "name": "redirect",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com>",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "./bin/server"
+  },
+  "dependencies": {
+    "nconf": "0.4.x"
+  },
+  "analyze": false
+}

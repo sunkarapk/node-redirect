@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var config = require("nconf").loadFilesSync([__dirname+"/../config.json"]);
+
+redirect = require('../lib/redirect')(config, 3000);
+console.log('redirect running on port 3000');
