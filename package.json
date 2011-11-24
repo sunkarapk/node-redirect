@@ -1,7 +1,9 @@
 {
   "name": "redirect",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com>",
+  "description": "A simple HTTP redirection server",
   "version": "0.1.0",
+  "keywords": ["redirect", "302", "server", "http", "simple"],
   "scripts": {
     "start": "./bin/server"
   },
