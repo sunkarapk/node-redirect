@@ -21,7 +21,7 @@ In order to run the `redirect` application, you will need to modify the `config.
 ```js
 {
   "code": 302,
-  "host": "http://pkumar.github.com"
+  "host": "http://pksunkara.github.com"
 }
 ```
 
