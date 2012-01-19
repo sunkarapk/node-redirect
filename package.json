@@ -1,14 +1,45 @@
 {
   "name": "redirect",
+  "version": "0.1.0",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com>",
   "description": "A simple HTTP redirection server",
-  "version": "0.1.0",
-  "keywords": ["redirect", "302", "server", "http", "simple"],
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pksunkara/node-redirect.git"
+  },
+  "keywords": [
+    "redirect",
+    "302",
+    "server",
+    "http",
+    "simple"
+  ],
+  "homepage": "http://pksunkara.github.com/node-redirect",
   "scripts": {
     "start": "./bin/server"
   },
+  "contributors": [
+    {
+      "name": "Pavan Kumar Sunkara",
+      "email": "pavan.sss1991@gmail.com"
+    }
+  ],
   "dependencies": {
     "nconf": "0.4.x"
   },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/pksunkara/node-redirect/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pksunkara/node-redirect/raw/master/LICENSE"
+    }
+  ],
   "analyze": false
 }
