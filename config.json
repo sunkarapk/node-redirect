@@ -1,7 +1,13 @@
 {
 	"port": 80,
 	"redirects": {
-		"host": "http://pksunkara.github.com",
-		"code": 302
+		"localhost": {
+			"host": "http://pksunkara.github.com",
+			"code": 302
+		},
+		"*": {
+			"host": "http://www.google.com",
+			"code": 302
+		}
 	}
 }
