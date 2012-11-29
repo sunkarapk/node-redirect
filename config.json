@@ -1,4 +1,7 @@
 {
-	"code": 302,
-	"host": "http://pksunkara.github.com"
+	"port": 80,
+	"redirects": {
+		"host": "http://pksunkara.github.com",
+		"code": 302
+	}
 }
