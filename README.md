@@ -34,6 +34,8 @@ In order to run the `redirect` application, you will need to modify the `config.
 }
 ```
 
+The "*" config is the catch all, every host not specified in the config will be redirected there.
+
 # Usage
 
 ### Starting locally
