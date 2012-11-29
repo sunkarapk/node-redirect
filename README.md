@@ -20,8 +20,17 @@ In order to run the `redirect` application, you will need to modify the `config.
 
 ```js
 {
-  "code": 302,
-  "host": "http://pksunkara.github.com"
+  "port": 80,
+  "redirects": {
+    "localhost": {
+      "host": "http://pksunkara.github.com",
+      "code": 302
+    },
+    "*": {
+      "host": "http://www.google.com",
+      "code": 302
+    }
+  }
 }
 ```
 
@@ -31,7 +40,11 @@ In order to run the `redirect` application, you will need to modify the `config.
 
     node bin/server
 
-*Now you can visit http://localhost:3000 to be redirected*
+*Now you can visit http://localhost to be redirected*
+
+Or specify a custom port on wich to run the server:
+
+    node bin/server --port=3000
 
 # License
 
