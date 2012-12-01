@@ -1,6 +1,6 @@
 {
   "name": "redirect",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com>",
   "description": "A simple HTTP redirection server",
   "main": "",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=0.4"
+    "node": ">=0.6"
   },
   "bugs": {
     "url": "https://github.com/pksunkara/node-redirect/issues"
